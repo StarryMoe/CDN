@@ -7,7 +7,7 @@ fi
 
 declare -i version
 
-url="https://fastly.jsdelivr.net/gh/OpenMediaVault-Plugin-Developers/packages"
+url="https://fastly.jsdelivr.net/gh/OpenMediaVault-Plugin-Developers/packages/"
 
 version=$(dpkg -l openmediavault | awk '$2 == "openmediavault" { print substr($3,1,1) }')
 
